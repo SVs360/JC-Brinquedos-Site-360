@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.13/18080
 // Filename: JC Brinquedos.ggsk
-// Generated 2023-10-17T10:46:45
+// Generated 2023-10-17T10:51:22
 
 function pano2vrSkin(player,base) {
 	player.addVariable('opt_3d_preview', 2, true);
