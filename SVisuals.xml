@@ -1,483 +1,502 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour apprev="18080" appversion="6.1.13" start="node14">
-  <panorama id="node14">
-    <input levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1520" width="1520" leveltilesize="510" overlap="1" levelbias="0.400">
-      <level height="1520" preload="0" width="1520" predecode="0"/>
-      <level height="760" preload="0" width="760" predecode="0"/>
-      <level height="380" preload="1" width="380" predecode="1"/>
+<tour apprev="18080" start="node14" appversion="6.1.13">
+  <panorama hideabout="1" id="node14">
+    <input width="1520" overlap="1" levelbias="0.400" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" height="1520" leveltilesize="510" levelbiashidpi="1.000" levelingroll="0">
+      <level width="1520" predecode="0" height="1520" preload="0"/>
+      <level width="760" predecode="0" height="760" preload="0"/>
+      <level width="380" predecode="1" height="380" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="-59" fovmode="0">
-      <start projection="4" pan="0" fov="70" tilt="0"/>
-      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max fovfisheye="360" pan="360" fov="120" scaletofit="1" tilt="90" fovstereographic="270"/>
+      <start projection="4" pan="0" tilt="0" fov="70"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1"/>
     </view>
-    <userdata longitude="-46.70567135" source="" comment="" tags="" author="" streetviewlink="https://www.google.com/maps/@-23.6257436,-46.7056714,3a,75y,301h/data=!3m4!1e1!3m2!1sAF1QipPt4Vj7RWcEFljFk-TVMUl9hQxJBWd1DPU-iS33!2e10" customnodeid="" nodeid="node14" info="" heading="-59" datetime="" copyright="" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" latitude="-23.62574364" altitude="725.59"/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label backgroundalpha="1" wordwrap="1" borderradius="1" textalpha="1" height="20" textcolor="0x000000" width="180" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" borderalpha="1" enabled="1" background="1"/>
-      <polystyle backgroundalpha="0.25098" handcursor="1" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
-      <hotspot url="{node15}" id="Point01" skinid="ht_node" pan="-4.06" distance="1.04606" tilt="0.12" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" target="-9.4/0.0/70.0"/>
+    <userdata nodeid="node14" heading="-59" author="" latitude="-23.62574364" customnodeid="" tags="" comment="" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" streetviewlink="https://www.google.com/maps/@-23.6257436,-46.7056714,3a,75y,301h/data=!3m4!1e1!3m2!1sAF1QipPt4Vj7RWcEFljFk-TVMUl9hQxJBWd1DPU-iS33!2e10" altitude="725.59" datetime="" copyright="" info="" longitude="-46.70567135" source=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label enabled="1" width="180" border="1" backgroundcolor="0xffffff" wordwrap="1" backgroundalpha="1" background="1" textalpha="1" bordercolor="0x000000" borderradius="1" height="20" textcolor="0x000000" borderalpha="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1"/>
+      <hotspot url="{node15}" pan="-4.06" tilt="0.12" distance="1.04606" description="" id="Point01" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" skinid="ht_node" target="-9.4/0.0/70.0"/>
     </hotspots>
     <media>
-      <sound level="0.300" loop="100" nodechangekeep="0" tiltsize="10.000" id="_background" ambientlevel="0.000" pan="-1.000" mode="0" pansize="10.000" startmutedmobile="0" tilt="-1.000" field="90.000">
+      <sound mode="0" field="90.000" pan="-1.000" tilt="-1.000" ambientlevel="0.000" nodechangekeep="0" level="0.300" loop="100" startmutedmobile="0" id="_background" pansize="10.000" tiltsize="10.000">
         <source url="media/smile.mp3"/>
       </sound>
     </media>
-    <transition type="crossdissolve" zoomspeed="2" zoomin="0" zoomafterinfov="90" blendcolor="0x000000" zoomoutpause="1" zoomfov="20" zoomafteroutfov="20" zoomout="0" softedge="0" blendtime="1" enabled="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" lockedmouse="0" hideabout="0" invertcontrol="1" contextvr="1" rubberband="0" sensitivity="8"/>
+    <transition enabled="1" zoomafterinfov="90" zoomin="0" zoomafteroutfov="20" zoomout="0" zoomspeed="2" blendtime="1" softedge="0" blendcolor="0x000000" type="crossdissolve" zoomoutpause="1" zoomfov="20"/>
+    <autorotate enabled="1" delay="8.00" noderandom="1" nodedelay="0.00" returntohorizon="0.000" useanimation="0" speed="0.200" startloaded="0" nodefilter=""/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control invertcontrol="1" rubberband="0" invertwheel="0" dblclickfullscreen="0" lockedmouse="0" speedwheel="1" hideabout="1" simulatemass="1" lockedkeyboard="0" sensitivity="8" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" contextvr="1" contextfullscreen="0"/>
   </panorama>
-  <panorama id="node15">
-    <input levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1520" width="1520" leveltilesize="510" overlap="1" levelbias="0.400">
-      <level height="1520" preload="0" width="1520" predecode="0"/>
-      <level height="760" preload="0" width="760" predecode="0"/>
-      <level height="380" preload="1" width="380" predecode="1"/>
+  <panorama hideabout="1" id="node15">
+    <input width="1520" overlap="1" levelbias="0.400" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" height="1520" leveltilesize="510" levelbiashidpi="1.000" levelingroll="0">
+      <level width="1520" predecode="0" height="1520" preload="0"/>
+      <level width="760" predecode="0" height="760" preload="0"/>
+      <level width="380" predecode="1" height="380" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="-59" fovmode="0">
-      <start projection="4" pan="0" fov="70" tilt="0"/>
-      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max fovfisheye="360" pan="360" fov="120" scaletofit="1" tilt="90" fovstereographic="270"/>
+      <start projection="4" pan="0" tilt="0" fov="70"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1"/>
     </view>
-    <userdata longitude="-46.70567940" source="" comment="" tags="" author="" streetviewlink="https://www.google.com/maps/@-23.6257378,-46.7056794,3a,75y,301h/data=!3m4!1e1!3m2!1sAF1QipOqGnIijyrU9mP73AhtezUjAQESUiNSqiFRwdDi!2e10" customnodeid="" nodeid="node15" info="" heading="-59" datetime="" copyright="" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" latitude="-23.62573780" altitude="725.59"/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label backgroundalpha="1" wordwrap="1" borderradius="1" textalpha="1" height="20" textcolor="0x000000" width="180" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" borderalpha="1" enabled="1" background="1"/>
-      <polystyle backgroundalpha="0.25098" handcursor="1" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
-      <hotspot url="{node14}" id="Point01" skinid="ht_node" pan="-187.37" distance="1.04606" tilt="0" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" target="176.6/0.0/70.0"/>
-      <hotspot url="{node9}" id="Point02" skinid="ht_node" pan="357.4" distance="0.902113" tilt="-1.24" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" target="1.4/0.0/70.0"/>
+    <userdata nodeid="node15" heading="-59" author="" latitude="-23.62573780" customnodeid="" tags="" comment="" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" streetviewlink="https://www.google.com/maps/@-23.6257378,-46.7056794,3a,75y,301h/data=!3m4!1e1!3m2!1sAF1QipOqGnIijyrU9mP73AhtezUjAQESUiNSqiFRwdDi!2e10" altitude="725.59" datetime="" copyright="" info="" longitude="-46.70567940" source=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label enabled="1" width="180" border="1" backgroundcolor="0xffffff" wordwrap="1" backgroundalpha="1" background="1" textalpha="1" bordercolor="0x000000" borderradius="1" height="20" textcolor="0x000000" borderalpha="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1"/>
+      <hotspot url="{node14}" pan="-187.37" tilt="0" distance="1.04606" description="" id="Point01" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" skinid="ht_node" target="176.6/0.0/70.0"/>
+      <hotspot url="{node9}" pan="357.4" tilt="-1.24" distance="0.902113" description="" id="Point02" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" skinid="ht_node" target="1.4/0.0/70.0"/>
     </hotspots>
     <media/>
-    <transition type="crossdissolve" zoomspeed="2" zoomin="0" zoomafterinfov="90" blendcolor="0x000000" zoomoutpause="1" zoomfov="20" zoomafteroutfov="20" zoomout="0" softedge="0" blendtime="1" enabled="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" lockedmouse="0" hideabout="0" invertcontrol="1" contextvr="1" rubberband="0" sensitivity="8"/>
+    <transition enabled="1" zoomafterinfov="90" zoomin="0" zoomafteroutfov="20" zoomout="0" zoomspeed="2" blendtime="1" softedge="0" blendcolor="0x000000" type="crossdissolve" zoomoutpause="1" zoomfov="20"/>
+    <autorotate enabled="1" delay="8.00" noderandom="1" nodedelay="0.00" returntohorizon="0.000" useanimation="0" speed="0.200" startloaded="0" nodefilter=""/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control invertcontrol="1" rubberband="0" invertwheel="0" dblclickfullscreen="0" lockedmouse="0" speedwheel="1" hideabout="1" simulatemass="1" lockedkeyboard="0" sensitivity="8" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" contextvr="1" contextfullscreen="0"/>
   </panorama>
-  <panorama id="node9">
-    <input levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1520" width="1520" leveltilesize="510" overlap="1" levelbias="0.400">
-      <level height="1520" preload="0" width="1520" predecode="0"/>
-      <level height="760" preload="0" width="760" predecode="0"/>
-      <level height="380" preload="1" width="380" predecode="1"/>
+  <panorama hideabout="1" id="node9">
+    <input width="1520" overlap="1" levelbias="0.400" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" height="1520" leveltilesize="510" levelbiashidpi="1.000" levelingroll="0">
+      <level width="1520" predecode="0" height="1520" preload="0"/>
+      <level width="760" predecode="0" height="760" preload="0"/>
+      <level width="380" predecode="1" height="380" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="-59" fovmode="0">
-      <start projection="4" pan="0" fov="70" tilt="0"/>
-      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max fovfisheye="360" pan="360" fov="120" scaletofit="1" tilt="90" fovstereographic="270"/>
+      <start projection="4" pan="0" tilt="0" fov="70"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1"/>
     </view>
-    <userdata longitude="-46.70568745" source="" comment="" tags="" author="" streetviewlink="https://www.google.com/maps/@-23.6257344,-46.7056874,3a,75y,301h/data=!3m4!1e1!3m2!1sAF1QipNp3dsJ_9cntGRWYROKx7PtHuWUPtNAB7mM5-Nr!2e10" customnodeid="" nodeid="node9" info="" heading="-59" datetime="" copyright="" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" latitude="-23.62573442" altitude="725.59"/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label backgroundalpha="1" wordwrap="1" borderradius="1" textalpha="1" height="20" textcolor="0x000000" width="180" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" borderalpha="1" enabled="1" background="1"/>
-      <polystyle backgroundalpha="0.25098" handcursor="1" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
-      <hotspot url="{node15}" id="Point01" skinid="ht_node" pan="-173.62" distance="0.902113" tilt="0" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" target="179.4/0.0/70.0"/>
-      <hotspot url="{node7}" id="Point02" skinid="ht_node" pan="1.94" distance="0.702783" tilt="0" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" target="-1.1/0.0/70.0"/>
+    <userdata nodeid="node9" heading="-59" author="" latitude="-23.62573442" customnodeid="" tags="" comment="" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" streetviewlink="https://www.google.com/maps/@-23.6257344,-46.7056874,3a,75y,301h/data=!3m4!1e1!3m2!1sAF1QipNp3dsJ_9cntGRWYROKx7PtHuWUPtNAB7mM5-Nr!2e10" altitude="725.59" datetime="" copyright="" info="" longitude="-46.70568745" source=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label enabled="1" width="180" border="1" backgroundcolor="0xffffff" wordwrap="1" backgroundalpha="1" background="1" textalpha="1" bordercolor="0x000000" borderradius="1" height="20" textcolor="0x000000" borderalpha="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1"/>
+      <hotspot url="{node15}" pan="-173.62" tilt="0" distance="0.902113" description="" id="Point01" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" skinid="ht_node" target="179.4/0.0/70.0"/>
+      <hotspot url="{node7}" pan="1.94" tilt="0" distance="0.702783" description="" id="Point02" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" skinid="ht_node" target="-1.1/0.0/70.0"/>
     </hotspots>
     <media/>
-    <transition type="crossdissolve" zoomspeed="2" zoomin="0" zoomafterinfov="90" blendcolor="0x000000" zoomoutpause="1" zoomfov="20" zoomafteroutfov="20" zoomout="0" softedge="0" blendtime="1" enabled="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" lockedmouse="0" hideabout="0" invertcontrol="1" contextvr="1" rubberband="0" sensitivity="8"/>
+    <transition enabled="1" zoomafterinfov="90" zoomin="0" zoomafteroutfov="20" zoomout="0" zoomspeed="2" blendtime="1" softedge="0" blendcolor="0x000000" type="crossdissolve" zoomoutpause="1" zoomfov="20"/>
+    <autorotate enabled="1" delay="8.00" noderandom="1" nodedelay="0.00" returntohorizon="0.000" useanimation="0" speed="0.200" startloaded="0" nodefilter=""/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control invertcontrol="1" rubberband="0" invertwheel="0" dblclickfullscreen="0" lockedmouse="0" speedwheel="1" hideabout="1" simulatemass="1" lockedkeyboard="0" sensitivity="8" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" contextvr="1" contextfullscreen="0"/>
   </panorama>
-  <panorama id="node7">
-    <input levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1520" width="1520" leveltilesize="510" overlap="1" levelbias="0.400">
-      <level height="1520" preload="0" width="1520" predecode="0"/>
-      <level height="760" preload="0" width="760" predecode="0"/>
-      <level height="380" preload="1" width="380" predecode="1"/>
+  <panorama hideabout="1" id="node7">
+    <input width="1520" overlap="1" levelbias="0.400" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" height="1520" leveltilesize="510" levelbiashidpi="1.000" levelingroll="0">
+      <level width="1520" predecode="0" height="1520" preload="0"/>
+      <level width="760" predecode="0" height="760" preload="0"/>
+      <level width="380" predecode="1" height="380" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="-59" fovmode="0">
-      <start projection="4" pan="0" fov="70" tilt="0"/>
-      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max fovfisheye="360" pan="360" fov="120" scaletofit="1" tilt="90" fovstereographic="270"/>
+      <start projection="4" pan="0" tilt="0" fov="70"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1"/>
     </view>
-    <userdata longitude="-46.70569348" source="" comment="" tags="" author="" streetviewlink="https://www.google.com/maps/@-23.6257313,-46.7056935,3a,75y,301h/data=!3m4!1e1!3m2!1sAF1QipM2NLnRHRP8gQAAtUoijORlHChzJxqQyitFcyru!2e10" customnodeid="" nodeid="node7" info="" heading="-59" datetime="" copyright="" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" latitude="-23.62573135" altitude="725.59"/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label backgroundalpha="1" wordwrap="1" borderradius="1" textalpha="1" height="20" textcolor="0x000000" width="180" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" borderalpha="1" enabled="1" background="1"/>
-      <polystyle backgroundalpha="0.25098" handcursor="1" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
-      <hotspot url="{node9}" id="Point01" skinid="ht_node" pan="-178.06" distance="0.702783" tilt="0" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" target="177.9/0.0/70.0"/>
-      <hotspot url="{node17}" id="Point02" skinid="ht_node" pan="-359.36" distance="0.861969" tilt="-0.62" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" target="2.3/0.0/70.0"/>
+    <userdata nodeid="node7" heading="-59" author="" latitude="-23.62573135" customnodeid="" tags="" comment="" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" streetviewlink="https://www.google.com/maps/@-23.6257313,-46.7056935,3a,75y,301h/data=!3m4!1e1!3m2!1sAF1QipM2NLnRHRP8gQAAtUoijORlHChzJxqQyitFcyru!2e10" altitude="725.59" datetime="" copyright="" info="" longitude="-46.70569348" source=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label enabled="1" width="180" border="1" backgroundcolor="0xffffff" wordwrap="1" backgroundalpha="1" background="1" textalpha="1" bordercolor="0x000000" borderradius="1" height="20" textcolor="0x000000" borderalpha="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1"/>
+      <hotspot url="{node9}" pan="-178.06" tilt="0" distance="0.702783" description="" id="Point01" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" skinid="ht_node" target="177.9/0.0/70.0"/>
+      <hotspot url="{node17}" pan="-359.36" tilt="-0.62" distance="0.861969" description="" id="Point02" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" skinid="ht_node" target="2.3/0.0/70.0"/>
     </hotspots>
     <media/>
-    <transition type="crossdissolve" zoomspeed="2" zoomin="0" zoomafterinfov="90" blendcolor="0x000000" zoomoutpause="1" zoomfov="20" zoomafteroutfov="20" zoomout="0" softedge="0" blendtime="1" enabled="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" lockedmouse="0" hideabout="0" invertcontrol="1" contextvr="1" rubberband="0" sensitivity="8"/>
+    <transition enabled="1" zoomafterinfov="90" zoomin="0" zoomafteroutfov="20" zoomout="0" zoomspeed="2" blendtime="1" softedge="0" blendcolor="0x000000" type="crossdissolve" zoomoutpause="1" zoomfov="20"/>
+    <autorotate enabled="1" delay="8.00" noderandom="1" nodedelay="0.00" returntohorizon="0.000" useanimation="0" speed="0.200" startloaded="0" nodefilter=""/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control invertcontrol="1" rubberband="0" invertwheel="0" dblclickfullscreen="0" lockedmouse="0" speedwheel="1" hideabout="1" simulatemass="1" lockedkeyboard="0" sensitivity="8" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" contextvr="1" contextfullscreen="0"/>
   </panorama>
-  <panorama id="node17">
-    <input levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1520" width="1520" leveltilesize="510" overlap="1" levelbias="0.400">
-      <level height="1520" preload="0" width="1520" predecode="0"/>
-      <level height="760" preload="0" width="760" predecode="0"/>
-      <level height="380" preload="1" width="380" predecode="1"/>
+  <panorama hideabout="1" id="node17">
+    <input width="1520" overlap="1" levelbias="0.400" leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" height="1520" leveltilesize="510" levelbiashidpi="1.000" levelingroll="0">
+      <level width="1520" predecode="0" height="1520" preload="0"/>
+      <level width="760" predecode="0" height="760" preload="0"/>
+      <level width="380" predecode="1" height="380" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="-59" fovmode="0">
-      <start projection="4" pan="0" fov="70" tilt="0"/>
-      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max fovfisheye="360" pan="360" fov="120" scaletofit="1" tilt="90" fovstereographic="270"/>
+      <start projection="4" pan="0" tilt="0" fov="70"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1"/>
     </view>
-    <userdata longitude="-46.70570052" source="" comment="" tags="" author="" streetviewlink="https://www.google.com/maps/@-23.625727,-46.7057005,3a,75y,301h/data=!3m4!1e1!3m2!1sAF1QipOQc46ca0g_RbglsNYnV8n0kUC6sqteL4mcPEoU!2e10" customnodeid="" nodeid="node17" info="" heading="-59" datetime="" copyright="" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" latitude="-23.62572705" altitude="725.59"/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label backgroundalpha="1" wordwrap="1" borderradius="1" textalpha="1" height="20" textcolor="0x000000" width="180" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" borderalpha="1" enabled="1" background="1"/>
-      <polystyle backgroundalpha="0.25098" handcursor="1" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
-      <hotspot url="{node7}" id="Point01" skinid="ht_node" pan="-182.69" distance="0.861969" tilt="0" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" target="177.3/0.0/70.0"/>
-      <hotspot url="{node19}" id="Point02" skinid="ht_node" pan="-356.79" distance="0.881557" tilt="-1.6" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" target="2.4/0.0/70.0"/>
+    <userdata nodeid="node17" heading="-59" author="" latitude="-23.62572705" customnodeid="" tags="" comment="" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" streetviewlink="https://www.google.com/maps/@-23.625727,-46.7057005,3a,75y,301h/data=!3m4!1e1!3m2!1sAF1QipOQc46ca0g_RbglsNYnV8n0kUC6sqteL4mcPEoU!2e10" altitude="725.59" datetime="" copyright="" info="" longitude="-46.70570052" source=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label enabled="1" width="180" border="1" backgroundcolor="0xffffff" wordwrap="1" backgroundalpha="1" background="1" textalpha="1" bordercolor="0x000000" borderradius="1" height="20" textcolor="0x000000" borderalpha="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1"/>
+      <hotspot url="{node7}" pan="-182.69" tilt="0" distance="0.861969" description="" id="Point01" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" skinid="ht_node" target="177.3/0.0/70.0"/>
+      <hotspot url="{node19}" pan="-356.79" tilt="-1.6" distance="0.881557" description="" id="Point02" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" skinid="ht_node" target="2.4/0.0/70.0"/>
     </hotspots>
     <media/>
-    <transition type="crossdissolve" zoomspeed="2" zoomin="0" zoomafterinfov="90" blendcolor="0x000000" zoomoutpause="1" zoomfov="20" zoomafteroutfov="20" zoomout="0" softedge="0" blendtime="1" enabled="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" lockedmouse="0" hideabout="0" invertcontrol="1" contextvr="1" rubberband="0" sensitivity="8"/>
+    <transition enabled="1" zoomafterinfov="90" zoomin="0" zoomafteroutfov="20" zoomout="0" zoomspeed="2" blendtime="1" softedge="0" blendcolor="0x000000" type="crossdissolve" zoomoutpause="1" zoomfov="20"/>
+    <autorotate enabled="1" delay="8.00" noderandom="1" nodedelay="0.00" returntohorizon="0.000" useanimation="0" speed="0.200" startloaded="0" nodefilter=""/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control invertcontrol="1" rubberband="0" invertwheel="0" dblclickfullscreen="0" lockedmouse="0" speedwheel="1" hideabout="1" simulatemass="1" lockedkeyboard="0" sensitivity="8" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" contextvr="1" contextfullscreen="0"/>
   </panorama>
-  <panorama id="node19">
-    <input levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1520" width="1520" leveltilesize="510" overlap="1" levelbias="0.400">
-      <level height="1520" preload="0" width="1520" predecode="0"/>
-      <level height="760" preload="0" width="760" predecode="0"/>
-      <level height="380" preload="1" width="380" predecode="1"/>
+  <panorama hideabout="1" id="node19">
+    <input width="1520" overlap="1" levelbias="0.400" leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" height="1520" leveltilesize="510" levelbiashidpi="1.000" levelingroll="0">
+      <level width="1520" predecode="0" height="1520" preload="0"/>
+      <level width="760" predecode="0" height="760" preload="0"/>
+      <level width="380" predecode="1" height="380" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="-59" fovmode="0">
-      <start projection="4" pan="0" fov="70" tilt="0"/>
-      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max fovfisheye="360" pan="360" fov="120" scaletofit="1" tilt="90" fovstereographic="270"/>
+      <start projection="4" pan="0" tilt="0" fov="70"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1"/>
     </view>
-    <userdata longitude="-46.70570756" source="" comment="" tags="" author="" streetviewlink="https://www.google.com/maps/@-23.6257224,-46.7057076,3a,75y,301h/data=!3m4!1e1!3m2!1sAF1QipPVUBPndXXOs5EuDhHPPE6e77vRkB-xgcvWlIpm!2e10" customnodeid="" nodeid="node19" info="" heading="-59" datetime="" copyright="" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" latitude="-23.62572244" altitude="725.59"/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label backgroundalpha="1" wordwrap="1" borderradius="1" textalpha="1" height="20" textcolor="0x000000" width="180" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" borderalpha="1" enabled="1" background="1"/>
-      <polystyle backgroundalpha="0.25098" handcursor="1" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
-      <hotspot url="{node17}" id="Point01" skinid="ht_node" pan="-175.35" distance="0.881557" tilt="-3.07" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" target="170.4/0.0/70.0"/>
-      <hotspot url="{node8}" id="Point02" skinid="ht_node" pan="8.14" distance="0.704238" tilt="4.39" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" target="25.1/0.0/70.0"/>
+    <userdata nodeid="node19" heading="-59" author="" latitude="-23.62572244" customnodeid="" tags="" comment="" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" streetviewlink="https://www.google.com/maps/@-23.6257224,-46.7057076,3a,75y,301h/data=!3m4!1e1!3m2!1sAF1QipPVUBPndXXOs5EuDhHPPE6e77vRkB-xgcvWlIpm!2e10" altitude="725.59" datetime="" copyright="" info="" longitude="-46.70570756" source=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label enabled="1" width="180" border="1" backgroundcolor="0xffffff" wordwrap="1" backgroundalpha="1" background="1" textalpha="1" bordercolor="0x000000" borderradius="1" height="20" textcolor="0x000000" borderalpha="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1"/>
+      <hotspot url="{node17}" pan="-175.35" tilt="-3.07" distance="0.881557" description="" id="Point01" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" skinid="ht_node" target="170.4/0.0/70.0"/>
+      <hotspot url="{node8}" pan="8.14" tilt="4.39" distance="0.704238" description="" id="Point02" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" skinid="ht_node" target="25.1/0.0/70.0"/>
     </hotspots>
     <media/>
-    <transition type="crossdissolve" zoomspeed="2" zoomin="0" zoomafterinfov="90" blendcolor="0x000000" zoomoutpause="1" zoomfov="20" zoomafteroutfov="20" zoomout="0" softedge="0" blendtime="1" enabled="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" lockedmouse="0" hideabout="0" invertcontrol="1" contextvr="1" rubberband="0" sensitivity="8"/>
+    <transition enabled="1" zoomafterinfov="90" zoomin="0" zoomafteroutfov="20" zoomout="0" zoomspeed="2" blendtime="1" softedge="0" blendcolor="0x000000" type="crossdissolve" zoomoutpause="1" zoomfov="20"/>
+    <autorotate enabled="1" delay="8.00" noderandom="1" nodedelay="0.00" returntohorizon="0.000" useanimation="0" speed="0.200" startloaded="0" nodefilter=""/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control invertcontrol="1" rubberband="0" invertwheel="0" dblclickfullscreen="0" lockedmouse="0" speedwheel="1" hideabout="1" simulatemass="1" lockedkeyboard="0" sensitivity="8" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" contextvr="1" contextfullscreen="0"/>
   </panorama>
-  <panorama id="node8">
-    <input levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1520" width="1520" leveltilesize="510" overlap="1" levelbias="0.400">
-      <level height="1520" preload="0" width="1520" predecode="0"/>
-      <level height="760" preload="0" width="760" predecode="0"/>
-      <level height="380" preload="1" width="380" predecode="1"/>
+  <panorama hideabout="1" id="node8">
+    <input width="1520" overlap="1" levelbias="0.400" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" height="1520" leveltilesize="510" levelbiashidpi="1.000" levelingroll="0">
+      <level width="1520" predecode="0" height="1520" preload="0"/>
+      <level width="760" predecode="0" height="760" preload="0"/>
+      <level width="380" predecode="1" height="380" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="-59" fovmode="0">
-      <start projection="4" pan="0" fov="70" tilt="0"/>
-      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max fovfisheye="360" pan="360" fov="120" scaletofit="1" tilt="90" fovstereographic="270"/>
+      <start projection="4" pan="0" tilt="0" fov="70"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1"/>
     </view>
-    <userdata longitude="-46.70571393" source="" comment="" tags="" author="" streetviewlink="https://www.google.com/maps/@-23.62572,-46.7057139,3a,75y,301h/data=!3m4!1e1!3m2!1sAF1QipMriB3LE4IGrzYLOzUquboTBL2AAq1xa6PgqFwl!2e10" customnodeid="" nodeid="node8" info="" heading="-59" datetime="" copyright="" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" latitude="-23.62571998" altitude="725.59"/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label backgroundalpha="1" wordwrap="1" borderradius="1" textalpha="1" height="20" textcolor="0x000000" width="180" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" borderalpha="1" enabled="1" background="1"/>
-      <polystyle backgroundalpha="0.25098" handcursor="1" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
-      <hotspot url="{node19}" id="Point01" skinid="ht_node" pan="-171.86" distance="0.704238" tilt="0" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" target="-176.9/0.0/70.0"/>
-      <hotspot url="{node3}" id="Point02" skinid="ht_node" pan="95.61" distance="0.82304" tilt="1.7" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" target="88.3/0.0/70.0"/>
-      <hotspot url="{node18}" id="Point03" skinid="ht_node" pan="-80.41" distance="0.919004" tilt="0.49" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" target="-2.3/0.0/70.0"/>
+    <userdata nodeid="node8" heading="-59" author="" latitude="-23.62571998" customnodeid="" tags="" comment="" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" streetviewlink="https://www.google.com/maps/@-23.62572,-46.7057139,3a,75y,301h/data=!3m4!1e1!3m2!1sAF1QipMriB3LE4IGrzYLOzUquboTBL2AAq1xa6PgqFwl!2e10" altitude="725.59" datetime="" copyright="" info="" longitude="-46.70571393" source=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label enabled="1" width="180" border="1" backgroundcolor="0xffffff" wordwrap="1" backgroundalpha="1" background="1" textalpha="1" bordercolor="0x000000" borderradius="1" height="20" textcolor="0x000000" borderalpha="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1"/>
+      <hotspot url="{node19}" pan="-171.86" tilt="0" distance="0.704238" description="" id="Point01" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" skinid="ht_node" target="-176.9/0.0/70.0"/>
+      <hotspot url="{node3}" pan="95.61" tilt="1.7" distance="0.82304" description="" id="Point02" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" skinid="ht_node" target="88.3/0.0/70.0"/>
+      <hotspot url="{node18}" pan="-80.41" tilt="0.49" distance="0.919004" description="" id="Point03" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" skinid="ht_node" target="-2.3/0.0/70.0"/>
     </hotspots>
     <media/>
-    <transition type="crossdissolve" zoomspeed="2" zoomin="0" zoomafterinfov="90" blendcolor="0x000000" zoomoutpause="1" zoomfov="20" zoomafteroutfov="20" zoomout="0" softedge="0" blendtime="1" enabled="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" lockedmouse="0" hideabout="0" invertcontrol="1" contextvr="1" rubberband="0" sensitivity="8"/>
+    <transition enabled="1" zoomafterinfov="90" zoomin="0" zoomafteroutfov="20" zoomout="0" zoomspeed="2" blendtime="1" softedge="0" blendcolor="0x000000" type="crossdissolve" zoomoutpause="1" zoomfov="20"/>
+    <autorotate enabled="1" delay="8.00" noderandom="1" nodedelay="0.00" returntohorizon="0.000" useanimation="0" speed="0.200" startloaded="0" nodefilter=""/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control invertcontrol="1" rubberband="0" invertwheel="0" dblclickfullscreen="0" lockedmouse="0" speedwheel="1" hideabout="1" simulatemass="1" lockedkeyboard="0" sensitivity="8" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" contextvr="1" contextfullscreen="0"/>
   </panorama>
-  <panorama id="node3">
-    <input levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1520" width="1520" leveltilesize="510" overlap="1" levelbias="0.400">
-      <level height="1520" preload="0" width="1520" predecode="0"/>
-      <level height="760" preload="0" width="760" predecode="0"/>
-      <level height="380" preload="1" width="380" predecode="1"/>
+  <panorama hideabout="1" id="node3">
+    <input width="1520" overlap="1" levelbias="0.400" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" height="1520" leveltilesize="510" levelbiashidpi="1.000" levelingroll="0">
+      <level width="1520" predecode="0" height="1520" preload="0"/>
+      <level width="760" predecode="0" height="760" preload="0"/>
+      <level width="380" predecode="1" height="380" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="-59" fovmode="0">
-      <start projection="4" pan="0" fov="70" tilt="0"/>
-      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max fovfisheye="360" pan="360" fov="120" scaletofit="1" tilt="90" fovstereographic="270"/>
+      <start projection="4" pan="0" tilt="0" fov="70"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1"/>
     </view>
-    <userdata longitude="-46.70571930" source="" comment="" tags="" author="" streetviewlink="https://www.google.com/maps/@-23.6257255,-46.7057193,3a,75y,301h/data=!3m4!1e1!3m2!1sAF1QipNTfk9K4kjY2WcYHAIOgT1FOAiFn2nkXU6X36re!2e10" customnodeid="" nodeid="node3" info="" heading="-59" datetime="" copyright="" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" latitude="-23.62572551" altitude="725.59"/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label backgroundalpha="1" wordwrap="1" borderradius="1" textalpha="1" height="20" textcolor="0x000000" width="180" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" borderalpha="1" enabled="1" background="1"/>
-      <polystyle backgroundalpha="0.25098" handcursor="1" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
-      <hotspot url="{node8}" id="Point01" skinid="ht_node" pan="-93.09" distance="0.82304" tilt="1.01" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" target="-86.7/0.0/70.0"/>
-      <hotspot url="{node2}" id="Point02" skinid="ht_node" pan="93.48" distance="0.886425" tilt="0" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" target="-87.5/0.0/70.0"/>
+    <userdata nodeid="node3" heading="-59" author="" latitude="-23.62572551" customnodeid="" tags="" comment="" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" streetviewlink="https://www.google.com/maps/@-23.6257255,-46.7057193,3a,75y,301h/data=!3m4!1e1!3m2!1sAF1QipNTfk9K4kjY2WcYHAIOgT1FOAiFn2nkXU6X36re!2e10" altitude="725.59" datetime="" copyright="" info="" longitude="-46.70571930" source=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label enabled="1" width="180" border="1" backgroundcolor="0xffffff" wordwrap="1" backgroundalpha="1" background="1" textalpha="1" bordercolor="0x000000" borderradius="1" height="20" textcolor="0x000000" borderalpha="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1"/>
+      <hotspot url="{node8}" pan="-93.09" tilt="1.01" distance="0.82304" description="" id="Point01" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" skinid="ht_node" target="-86.7/0.0/70.0"/>
+      <hotspot url="{node2}" pan="93.48" tilt="0" distance="0.886425" description="" id="Point02" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" skinid="ht_node" target="-87.5/0.0/70.0"/>
     </hotspots>
     <media/>
-    <transition type="crossdissolve" zoomspeed="2" zoomin="0" zoomafterinfov="90" blendcolor="0x000000" zoomoutpause="1" zoomfov="20" zoomafteroutfov="20" zoomout="0" softedge="0" blendtime="1" enabled="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" lockedmouse="0" hideabout="0" invertcontrol="1" contextvr="1" rubberband="0" sensitivity="8"/>
+    <transition enabled="1" zoomafterinfov="90" zoomin="0" zoomafteroutfov="20" zoomout="0" zoomspeed="2" blendtime="1" softedge="0" blendcolor="0x000000" type="crossdissolve" zoomoutpause="1" zoomfov="20"/>
+    <autorotate enabled="1" delay="8.00" noderandom="1" nodedelay="0.00" returntohorizon="0.000" useanimation="0" speed="0.200" startloaded="0" nodefilter=""/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control invertcontrol="1" rubberband="0" invertwheel="0" dblclickfullscreen="0" lockedmouse="0" speedwheel="1" hideabout="1" simulatemass="1" lockedkeyboard="0" sensitivity="8" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" contextvr="1" contextfullscreen="0"/>
   </panorama>
-  <panorama id="node2">
-    <input levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1520" width="1520" leveltilesize="510" overlap="1" levelbias="0.400">
-      <level height="1520" preload="0" width="1520" predecode="0"/>
-      <level height="760" preload="0" width="760" predecode="0"/>
-      <level height="380" preload="1" width="380" predecode="1"/>
+  <panorama hideabout="1" id="node2">
+    <input width="1520" overlap="1" levelbias="0.400" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" height="1520" leveltilesize="510" levelbiashidpi="1.000" levelingroll="0">
+      <level width="1520" predecode="0" height="1520" preload="0"/>
+      <level width="760" predecode="0" height="760" preload="0"/>
+      <level width="380" predecode="1" height="380" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="119" fovmode="0">
-      <start projection="4" pan="0" fov="70" tilt="0"/>
-      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max fovfisheye="360" pan="360" fov="120" scaletofit="1" tilt="90" fovstereographic="270"/>
+      <start projection="4" pan="0" tilt="0" fov="70"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1"/>
     </view>
-    <userdata longitude="-46.70572332" source="" comment="" tags="" author="" streetviewlink="https://www.google.com/maps/@-23.6257326,-46.7057233,3a,75y,119h/data=!3m4!1e1!3m2!1sAF1QipNBuCpu-2IXJrNhC-LAhIUWXTqzZnjNdO-O4EtC!2e10" customnodeid="" nodeid="node2" info="" heading="119" datetime="" copyright="" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" latitude="-23.62573258" altitude="725.59"/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label backgroundalpha="1" wordwrap="1" borderradius="1" textalpha="1" height="20" textcolor="0x000000" width="180" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" borderalpha="1" enabled="1" background="1"/>
-      <polystyle backgroundalpha="0.25098" handcursor="1" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
-      <hotspot url="{node3}" id="Point01" skinid="ht_node" pan="91.48" distance="0.886425" tilt="0" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" target="-99.5/0.0/70.0"/>
-      <hotspot url="{node5}" id="Point02" skinid="ht_node" pan="-4.28" distance="0.673595" tilt="-1.1" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" target="2.6/0.0/70.0"/>
+    <userdata nodeid="node2" heading="119" author="" latitude="-23.62573258" customnodeid="" tags="" comment="" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" streetviewlink="https://www.google.com/maps/@-23.6257326,-46.7057233,3a,75y,119h/data=!3m4!1e1!3m2!1sAF1QipNBuCpu-2IXJrNhC-LAhIUWXTqzZnjNdO-O4EtC!2e10" altitude="725.59" datetime="" copyright="" info="" longitude="-46.70572332" source=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label enabled="1" width="180" border="1" backgroundcolor="0xffffff" wordwrap="1" backgroundalpha="1" background="1" textalpha="1" bordercolor="0x000000" borderradius="1" height="20" textcolor="0x000000" borderalpha="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1"/>
+      <hotspot url="{node3}" pan="91.48" tilt="0" distance="0.886425" description="" id="Point01" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" skinid="ht_node" target="-99.5/0.0/70.0"/>
+      <hotspot url="{node5}" pan="-4.28" tilt="-1.1" distance="0.673595" description="" id="Point02" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" skinid="ht_node" target="2.6/0.0/70.0"/>
     </hotspots>
     <media/>
-    <transition type="crossdissolve" zoomspeed="2" zoomin="0" zoomafterinfov="90" blendcolor="0x000000" zoomoutpause="1" zoomfov="20" zoomafteroutfov="20" zoomout="0" softedge="0" blendtime="1" enabled="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" lockedmouse="0" hideabout="0" invertcontrol="1" contextvr="1" rubberband="0" sensitivity="8"/>
+    <transition enabled="1" zoomafterinfov="90" zoomin="0" zoomafteroutfov="20" zoomout="0" zoomspeed="2" blendtime="1" softedge="0" blendcolor="0x000000" type="crossdissolve" zoomoutpause="1" zoomfov="20"/>
+    <autorotate enabled="1" delay="8.00" noderandom="1" nodedelay="0.00" returntohorizon="0.000" useanimation="0" speed="0.200" startloaded="0" nodefilter=""/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control invertcontrol="1" rubberband="0" invertwheel="0" dblclickfullscreen="0" lockedmouse="0" speedwheel="1" hideabout="1" simulatemass="1" lockedkeyboard="0" sensitivity="8" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" contextvr="1" contextfullscreen="0"/>
   </panorama>
-  <panorama id="node5">
-    <input levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1520" width="1520" leveltilesize="510" overlap="1" levelbias="0.400">
-      <level height="1520" preload="0" width="1520" predecode="0"/>
-      <level height="760" preload="0" width="760" predecode="0"/>
-      <level height="380" preload="1" width="380" predecode="1"/>
+  <panorama hideabout="1" id="node5">
+    <input width="1520" overlap="1" levelbias="0.400" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" height="1520" leveltilesize="510" levelbiashidpi="1.000" levelingroll="0">
+      <level width="1520" predecode="0" height="1520" preload="0"/>
+      <level width="760" predecode="0" height="760" preload="0"/>
+      <level width="380" predecode="1" height="380" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="119" fovmode="0">
-      <start projection="4" pan="0" fov="70" tilt="0"/>
-      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max fovfisheye="360" pan="360" fov="120" scaletofit="1" tilt="90" fovstereographic="270"/>
+      <start projection="4" pan="0" tilt="0" fov="70"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1"/>
     </view>
-    <userdata longitude="-46.70571762" source="" comment="" tags="" author="" streetviewlink="https://www.google.com/maps/@-23.6257356,-46.7057176,3a,75y,119h/data=!3m4!1e1!3m2!1sAF1QipN9KGR4Vl3FFy7_YbC6vYtspLXxzbDopFJNwnWD!2e10" customnodeid="" nodeid="node5" info="" heading="119" datetime="" copyright="" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" latitude="-23.62573565" altitude="725.59"/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label backgroundalpha="1" wordwrap="1" borderradius="1" textalpha="1" height="20" textcolor="0x000000" width="180" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" borderalpha="1" enabled="1" background="1"/>
-      <polystyle backgroundalpha="0.25098" handcursor="1" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
-      <hotspot url="{node2}" id="Point01" skinid="ht_node" pan="178.55" distance="0.673595" tilt="0" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" target="178.6/0.0/70.0"/>
-      <hotspot url="{node10}" id="Point02" skinid="ht_node" pan="-2.02" distance="0.901363" tilt="0.49" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" target="1.7/0.0/70.0"/>
+    <userdata nodeid="node5" heading="119" author="" latitude="-23.62573565" customnodeid="" tags="" comment="" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" streetviewlink="https://www.google.com/maps/@-23.6257356,-46.7057176,3a,75y,119h/data=!3m4!1e1!3m2!1sAF1QipN9KGR4Vl3FFy7_YbC6vYtspLXxzbDopFJNwnWD!2e10" altitude="725.59" datetime="" copyright="" info="" longitude="-46.70571762" source=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label enabled="1" width="180" border="1" backgroundcolor="0xffffff" wordwrap="1" backgroundalpha="1" background="1" textalpha="1" bordercolor="0x000000" borderradius="1" height="20" textcolor="0x000000" borderalpha="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1"/>
+      <hotspot url="{node2}" pan="178.55" tilt="0" distance="0.673595" description="" id="Point01" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" skinid="ht_node" target="178.6/0.0/70.0"/>
+      <hotspot url="{node10}" pan="-2.02" tilt="0.49" distance="0.901363" description="" id="Point02" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" skinid="ht_node" target="1.7/0.0/70.0"/>
     </hotspots>
     <media/>
-    <transition type="crossdissolve" zoomspeed="2" zoomin="0" zoomafterinfov="90" blendcolor="0x000000" zoomoutpause="1" zoomfov="20" zoomafteroutfov="20" zoomout="0" softedge="0" blendtime="1" enabled="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" lockedmouse="0" hideabout="0" invertcontrol="1" contextvr="1" rubberband="0" sensitivity="8"/>
+    <transition enabled="1" zoomafterinfov="90" zoomin="0" zoomafteroutfov="20" zoomout="0" zoomspeed="2" blendtime="1" softedge="0" blendcolor="0x000000" type="crossdissolve" zoomoutpause="1" zoomfov="20"/>
+    <autorotate enabled="1" delay="8.00" noderandom="1" nodedelay="0.00" returntohorizon="0.000" useanimation="0" speed="0.200" startloaded="0" nodefilter=""/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control invertcontrol="1" rubberband="0" invertwheel="0" dblclickfullscreen="0" lockedmouse="0" speedwheel="1" hideabout="1" simulatemass="1" lockedkeyboard="0" sensitivity="8" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" contextvr="1" contextfullscreen="0"/>
   </panorama>
-  <panorama id="node10">
-    <input levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1520" width="1520" leveltilesize="510" overlap="1" levelbias="0.400">
-      <level height="1520" preload="0" width="1520" predecode="0"/>
-      <level height="760" preload="0" width="760" predecode="0"/>
-      <level height="380" preload="1" width="380" predecode="1"/>
+  <panorama hideabout="1" id="node10">
+    <input width="1520" overlap="1" levelbias="0.400" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" height="1520" leveltilesize="510" levelbiashidpi="1.000" levelingroll="0">
+      <level width="1520" predecode="0" height="1520" preload="0"/>
+      <level width="760" predecode="0" height="760" preload="0"/>
+      <level width="380" predecode="1" height="380" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="119" fovmode="0">
-      <start projection="4" pan="0" fov="70" tilt="0"/>
-      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max fovfisheye="360" pan="360" fov="120" scaletofit="1" tilt="90" fovstereographic="270"/>
+      <start projection="4" pan="0" tilt="0" fov="70"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1"/>
     </view>
-    <userdata longitude="-46.70571058" source="" comment="" tags="" author="" streetviewlink="https://www.google.com/maps/@-23.6257406,-46.7057106,3a,75y,119h/data=!3m4!1e1!3m2!1sAF1QipOPnWOFEVNKJZoLIFLcTYOynrvGunZIyfRKGD5n!2e10" customnodeid="" nodeid="node10" info="" heading="119" datetime="" copyright="" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" latitude="-23.62574056" altitude="725.59"/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label backgroundalpha="1" wordwrap="1" borderradius="1" textalpha="1" height="20" textcolor="0x000000" width="180" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" borderalpha="1" enabled="1" background="1"/>
-      <polystyle backgroundalpha="0.25098" handcursor="1" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
-      <hotspot url="{node5}" id="Point01" skinid="ht_node" pan="179.9" distance="0.901363" tilt="-0.24" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" target="175.7/0.0/70.0"/>
-      <hotspot url="{node1}" id="Point02" skinid="ht_node" pan="-356.24" distance="0.767776" tilt="-0.46" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" target="0.7/0.0/70.0"/>
+    <userdata nodeid="node10" heading="119" author="" latitude="-23.62574056" customnodeid="" tags="" comment="" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" streetviewlink="https://www.google.com/maps/@-23.6257406,-46.7057106,3a,75y,119h/data=!3m4!1e1!3m2!1sAF1QipOPnWOFEVNKJZoLIFLcTYOynrvGunZIyfRKGD5n!2e10" altitude="725.59" datetime="" copyright="" info="" longitude="-46.70571058" source=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label enabled="1" width="180" border="1" backgroundcolor="0xffffff" wordwrap="1" backgroundalpha="1" background="1" textalpha="1" bordercolor="0x000000" borderradius="1" height="20" textcolor="0x000000" borderalpha="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1"/>
+      <hotspot url="{node5}" pan="179.9" tilt="-0.24" distance="0.901363" description="" id="Point01" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" skinid="ht_node" target="175.7/0.0/70.0"/>
+      <hotspot url="{node1}" pan="-356.24" tilt="-0.46" distance="0.767776" description="" id="Point02" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" skinid="ht_node" target="0.7/0.0/70.0"/>
     </hotspots>
     <media/>
-    <transition type="crossdissolve" zoomspeed="2" zoomin="0" zoomafterinfov="90" blendcolor="0x000000" zoomoutpause="1" zoomfov="20" zoomafteroutfov="20" zoomout="0" softedge="0" blendtime="1" enabled="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" lockedmouse="0" hideabout="0" invertcontrol="1" contextvr="1" rubberband="0" sensitivity="8"/>
+    <transition enabled="1" zoomafterinfov="90" zoomin="0" zoomafteroutfov="20" zoomout="0" zoomspeed="2" blendtime="1" softedge="0" blendcolor="0x000000" type="crossdissolve" zoomoutpause="1" zoomfov="20"/>
+    <autorotate enabled="1" delay="8.00" noderandom="1" nodedelay="0.00" returntohorizon="0.000" useanimation="0" speed="0.200" startloaded="0" nodefilter=""/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control invertcontrol="1" rubberband="0" invertwheel="0" dblclickfullscreen="0" lockedmouse="0" speedwheel="1" hideabout="1" simulatemass="1" lockedkeyboard="0" sensitivity="8" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" contextvr="1" contextfullscreen="0"/>
   </panorama>
-  <panorama id="node1">
-    <input levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1520" width="1520" leveltilesize="510" overlap="1" levelbias="0.400">
-      <level height="1520" preload="0" width="1520" predecode="0"/>
-      <level height="760" preload="0" width="760" predecode="0"/>
-      <level height="380" preload="1" width="380" predecode="1"/>
+  <panorama hideabout="1" id="node1">
+    <input width="1520" overlap="1" levelbias="0.400" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" height="1520" leveltilesize="510" levelbiashidpi="1.000" levelingroll="0">
+      <level width="1520" predecode="0" height="1520" preload="0"/>
+      <level width="760" predecode="0" height="760" preload="0"/>
+      <level width="380" predecode="1" height="380" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="119" fovmode="0">
-      <start projection="4" pan="0" fov="70" tilt="0"/>
-      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max fovfisheye="360" pan="360" fov="120" scaletofit="1" tilt="90" fovstereographic="270"/>
+      <start projection="4" pan="0" tilt="0" fov="70"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1"/>
     </view>
-    <userdata longitude="-46.70570421" source="" comment="" tags="" author="" streetviewlink="https://www.google.com/maps/@-23.6257443,-46.7057042,3a,75y,119h/data=!3m4!1e1!3m2!1sAF1QipNMJYA8Xz5igDdZhiB_ENFCUVkxzlU_C0Qvdh9I!2e10" customnodeid="" nodeid="node1" info="" heading="119" datetime="" copyright="" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" latitude="-23.62574425" altitude="725.59"/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label backgroundalpha="1" wordwrap="1" borderradius="1" textalpha="1" height="20" textcolor="0x000000" width="180" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" borderalpha="1" enabled="1" background="1"/>
-      <polystyle backgroundalpha="0.25098" handcursor="1" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
-      <hotspot url="{node10}" id="Point01" skinid="ht_node" pan="176.7" distance="0.767776" tilt="0" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" target="175.7/0.0/70.0"/>
+    <userdata nodeid="node1" heading="119" author="" latitude="-23.62574425" customnodeid="" tags="" comment="" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" streetviewlink="https://www.google.com/maps/@-23.6257443,-46.7057042,3a,75y,119h/data=!3m4!1e1!3m2!1sAF1QipNMJYA8Xz5igDdZhiB_ENFCUVkxzlU_C0Qvdh9I!2e10" altitude="725.59" datetime="" copyright="" info="" longitude="-46.70570421" source=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label enabled="1" width="180" border="1" backgroundcolor="0xffffff" wordwrap="1" backgroundalpha="1" background="1" textalpha="1" bordercolor="0x000000" borderradius="1" height="20" textcolor="0x000000" borderalpha="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1"/>
+      <hotspot url="{node10}" pan="176.7" tilt="0" distance="0.767776" description="" id="Point01" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" skinid="ht_node" target="175.7/0.0/70.0"/>
     </hotspots>
     <media/>
-    <transition type="crossdissolve" zoomspeed="2" zoomin="0" zoomafterinfov="90" blendcolor="0x000000" zoomoutpause="1" zoomfov="20" zoomafteroutfov="20" zoomout="0" softedge="0" blendtime="1" enabled="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" lockedmouse="0" hideabout="0" invertcontrol="1" contextvr="1" rubberband="0" sensitivity="8"/>
+    <transition enabled="1" zoomafterinfov="90" zoomin="0" zoomafteroutfov="20" zoomout="0" zoomspeed="2" blendtime="1" softedge="0" blendcolor="0x000000" type="crossdissolve" zoomoutpause="1" zoomfov="20"/>
+    <autorotate enabled="1" delay="8.00" noderandom="1" nodedelay="0.00" returntohorizon="0.000" useanimation="0" speed="0.200" startloaded="0" nodefilter=""/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control invertcontrol="1" rubberband="0" invertwheel="0" dblclickfullscreen="0" lockedmouse="0" speedwheel="1" hideabout="1" simulatemass="1" lockedkeyboard="0" sensitivity="8" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" contextvr="1" contextfullscreen="0"/>
   </panorama>
-  <panorama id="node18">
-    <input levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1520" width="1520" leveltilesize="510" overlap="1" levelbias="0.400">
-      <level height="1520" preload="0" width="1520" predecode="0"/>
-      <level height="760" preload="0" width="760" predecode="0"/>
-      <level height="380" preload="1" width="380" predecode="1"/>
+  <panorama hideabout="1" id="node18">
+    <input width="1520" overlap="1" levelbias="0.400" leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" height="1520" leveltilesize="510" levelbiashidpi="1.000" levelingroll="0">
+      <level width="1520" predecode="0" height="1520" preload="0"/>
+      <level width="760" predecode="0" height="760" preload="0"/>
+      <level width="380" predecode="1" height="380" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="28" fovmode="0">
-      <start projection="4" pan="0" fov="70" tilt="0"/>
-      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max fovfisheye="360" pan="360" fov="120" scaletofit="1" tilt="90" fovstereographic="270"/>
+      <start projection="4" pan="0" tilt="0" fov="70"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1"/>
     </view>
-    <userdata longitude="-46.70570924" source="" comment="" tags="" author="" streetviewlink="https://www.google.com/maps/@-23.6257129,-46.7057092,3a,75y,28h/data=!3m4!1e1!3m2!1sAF1QipOkK1s90wKlQ4ICMLEnR7sYwVzPjH1LW87pVxTt!2e10" customnodeid="" nodeid="node18" info="" heading="28" datetime="" copyright="" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" latitude="-23.62571292" altitude="725.59"/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label backgroundalpha="1" wordwrap="1" borderradius="1" textalpha="1" height="20" textcolor="0x000000" width="180" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" borderalpha="1" enabled="1" background="1"/>
-      <polystyle backgroundalpha="0.25098" handcursor="1" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
-      <hotspot url="{node8}" id="Point01" skinid="ht_node" pan="176.67" distance="0.919004" tilt="0" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" target="87.7/0.0/70.0"/>
-      <hotspot url="{node6}" id="Point02" skinid="ht_node" pan="-357.66" distance="0.814506" tilt="0.24" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" target="-9.0/0.0/70.0"/>
+    <userdata nodeid="node18" heading="28" author="" latitude="-23.62571292" customnodeid="" tags="" comment="" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" streetviewlink="https://www.google.com/maps/@-23.6257129,-46.7057092,3a,75y,28h/data=!3m4!1e1!3m2!1sAF1QipOkK1s90wKlQ4ICMLEnR7sYwVzPjH1LW87pVxTt!2e10" altitude="725.59" datetime="" copyright="" info="" longitude="-46.70570924" source=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label enabled="1" width="180" border="1" backgroundcolor="0xffffff" wordwrap="1" backgroundalpha="1" background="1" textalpha="1" bordercolor="0x000000" borderradius="1" height="20" textcolor="0x000000" borderalpha="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1"/>
+      <hotspot url="{node8}" pan="176.67" tilt="0" distance="0.919004" description="" id="Point01" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" skinid="ht_node" target="87.7/0.0/70.0"/>
+      <hotspot url="{node6}" pan="-357.66" tilt="0.24" distance="0.814506" description="" id="Point02" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" skinid="ht_node" target="-9.0/0.0/70.0"/>
     </hotspots>
     <media/>
-    <transition type="crossdissolve" zoomspeed="2" zoomin="0" zoomafterinfov="90" blendcolor="0x000000" zoomoutpause="1" zoomfov="20" zoomafteroutfov="20" zoomout="0" softedge="0" blendtime="1" enabled="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" lockedmouse="0" hideabout="0" invertcontrol="1" contextvr="1" rubberband="0" sensitivity="8"/>
+    <transition enabled="1" zoomafterinfov="90" zoomin="0" zoomafteroutfov="20" zoomout="0" zoomspeed="2" blendtime="1" softedge="0" blendcolor="0x000000" type="crossdissolve" zoomoutpause="1" zoomfov="20"/>
+    <autorotate enabled="1" delay="8.00" noderandom="1" nodedelay="0.00" returntohorizon="0.000" useanimation="0" speed="0.200" startloaded="0" nodefilter=""/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control invertcontrol="1" rubberband="0" invertwheel="0" dblclickfullscreen="0" lockedmouse="0" speedwheel="1" hideabout="1" simulatemass="1" lockedkeyboard="0" sensitivity="8" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" contextvr="1" contextfullscreen="0"/>
   </panorama>
-  <panorama id="node6">
-    <input levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1520" width="1520" leveltilesize="510" overlap="1" levelbias="0.400">
-      <level height="1520" preload="0" width="1520" predecode="0"/>
-      <level height="760" preload="0" width="760" predecode="0"/>
-      <level height="380" preload="1" width="380" predecode="1"/>
+  <panorama hideabout="1" id="node6">
+    <input width="1520" overlap="1" levelbias="0.400" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" height="1520" leveltilesize="510" levelbiashidpi="1.000" levelingroll="0">
+      <level width="1520" predecode="0" height="1520" preload="0"/>
+      <level width="760" predecode="0" height="760" preload="0"/>
+      <level width="380" predecode="1" height="380" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="28" fovmode="0">
-      <start projection="4" pan="0" fov="70" tilt="0"/>
-      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max fovfisheye="360" pan="360" fov="120" scaletofit="1" tilt="90" fovstereographic="270"/>
+      <start projection="4" pan="0" tilt="0" fov="70"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1"/>
     </view>
-    <userdata longitude="-46.70570488" source="" comment="" tags="" author="" streetviewlink="https://www.google.com/maps/@-23.6257068,-46.7057049,3a,75y,28h/data=!3m4!1e1!3m2!1sAF1QipMI_hZZSWGDQW8ExUVq7jM-4LDUVL9wH7zywXED!2e10" customnodeid="" nodeid="node6" info="" heading="28" datetime="" copyright="" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" latitude="-23.62570678" altitude="725.59"/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label backgroundalpha="1" wordwrap="1" borderradius="1" textalpha="1" height="20" textcolor="0x000000" width="180" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" borderalpha="1" enabled="1" background="1"/>
-      <polystyle backgroundalpha="0.25098" handcursor="1" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
-      <hotspot url="{node18}" id="Point01" skinid="ht_node" pan="174.95" distance="0.814506" tilt="0" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" target="176.0/0.0/70.0"/>
-      <hotspot url="{node12}" id="Point02" skinid="ht_node" pan="-355.61" distance="0.731772" tilt="0.24" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" target="-7.4/0.0/70.0"/>
+    <userdata nodeid="node6" heading="28" author="" latitude="-23.62570678" customnodeid="" tags="" comment="" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" streetviewlink="https://www.google.com/maps/@-23.6257068,-46.7057049,3a,75y,28h/data=!3m4!1e1!3m2!1sAF1QipMI_hZZSWGDQW8ExUVq7jM-4LDUVL9wH7zywXED!2e10" altitude="725.59" datetime="" copyright="" info="" longitude="-46.70570488" source=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label enabled="1" width="180" border="1" backgroundcolor="0xffffff" wordwrap="1" backgroundalpha="1" background="1" textalpha="1" bordercolor="0x000000" borderradius="1" height="20" textcolor="0x000000" borderalpha="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1"/>
+      <hotspot url="{node18}" pan="174.95" tilt="0" distance="0.814506" description="" id="Point01" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" skinid="ht_node" target="176.0/0.0/70.0"/>
+      <hotspot url="{node12}" pan="-355.61" tilt="0.24" distance="0.731772" description="" id="Point02" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" skinid="ht_node" target="-7.4/0.0/70.0"/>
     </hotspots>
     <media/>
-    <transition type="crossdissolve" zoomspeed="2" zoomin="0" zoomafterinfov="90" blendcolor="0x000000" zoomoutpause="1" zoomfov="20" zoomafteroutfov="20" zoomout="0" softedge="0" blendtime="1" enabled="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" lockedmouse="0" hideabout="0" invertcontrol="1" contextvr="1" rubberband="0" sensitivity="8"/>
+    <transition enabled="1" zoomafterinfov="90" zoomin="0" zoomafteroutfov="20" zoomout="0" zoomspeed="2" blendtime="1" softedge="0" blendcolor="0x000000" type="crossdissolve" zoomoutpause="1" zoomfov="20"/>
+    <autorotate enabled="1" delay="8.00" noderandom="1" nodedelay="0.00" returntohorizon="0.000" useanimation="0" speed="0.200" startloaded="0" nodefilter=""/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control invertcontrol="1" rubberband="0" invertwheel="0" dblclickfullscreen="0" lockedmouse="0" speedwheel="1" hideabout="1" simulatemass="1" lockedkeyboard="0" sensitivity="8" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" contextvr="1" contextfullscreen="0"/>
   </panorama>
-  <panorama id="node12">
-    <input levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1520" width="1520" leveltilesize="510" overlap="1" levelbias="0.400">
-      <level height="1520" preload="0" width="1520" predecode="0"/>
-      <level height="760" preload="0" width="760" predecode="0"/>
-      <level height="380" preload="1" width="380" predecode="1"/>
+  <panorama hideabout="1" id="node12">
+    <input width="1520" overlap="1" levelbias="0.400" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" height="1520" leveltilesize="510" levelbiashidpi="1.000" levelingroll="0">
+      <level width="1520" predecode="0" height="1520" preload="0"/>
+      <level width="760" predecode="0" height="760" preload="0"/>
+      <level width="380" predecode="1" height="380" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="28" fovmode="0">
-      <start projection="4" pan="0" fov="70" tilt="0"/>
-      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max fovfisheye="360" pan="360" fov="120" scaletofit="1" tilt="90" fovstereographic="270"/>
+      <start projection="4" pan="0" tilt="0" fov="70"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1"/>
     </view>
-    <userdata longitude="-46.70570052" source="" comment="" tags="" author="" streetviewlink="https://www.google.com/maps/@-23.6257015,-46.7057005,3a,75y,28h/data=!3m4!1e1!3m2!1sAF1QipPz3A7KMsa0pv-eFn90eSHlTr6z89Wk1FkywUFC!2e10" customnodeid="" nodeid="node12" info="" heading="28" datetime="" copyright="" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" latitude="-23.62570155" altitude="725.59"/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label backgroundalpha="1" wordwrap="1" borderradius="1" textalpha="1" height="20" textcolor="0x000000" width="180" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" borderalpha="1" enabled="1" background="1"/>
-      <polystyle backgroundalpha="0.25098" handcursor="1" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
-      <hotspot url="{node6}" id="Point01" skinid="ht_node" pan="180.83" distance="0.731772" tilt="-0.61" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" target="172.6/0.0/70.0"/>
-      <hotspot url="{node11}" id="Point02" skinid="ht_node" pan="351.32" distance="0.962584" tilt="0.36" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" target="-88.5/0.0/70.0"/>
+    <userdata nodeid="node12" heading="28" author="" latitude="-23.62570155" customnodeid="" tags="" comment="" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" streetviewlink="https://www.google.com/maps/@-23.6257015,-46.7057005,3a,75y,28h/data=!3m4!1e1!3m2!1sAF1QipPz3A7KMsa0pv-eFn90eSHlTr6z89Wk1FkywUFC!2e10" altitude="725.59" datetime="" copyright="" info="" longitude="-46.70570052" source=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label enabled="1" width="180" border="1" backgroundcolor="0xffffff" wordwrap="1" backgroundalpha="1" background="1" textalpha="1" bordercolor="0x000000" borderradius="1" height="20" textcolor="0x000000" borderalpha="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1"/>
+      <hotspot url="{node6}" pan="180.83" tilt="-0.61" distance="0.731772" description="" id="Point01" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" skinid="ht_node" target="172.6/0.0/70.0"/>
+      <hotspot url="{node11}" pan="351.32" tilt="0.36" distance="0.962584" description="" id="Point02" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" skinid="ht_node" target="-88.5/0.0/70.0"/>
     </hotspots>
     <media/>
-    <transition type="crossdissolve" zoomspeed="2" zoomin="0" zoomafterinfov="90" blendcolor="0x000000" zoomoutpause="1" zoomfov="20" zoomafteroutfov="20" zoomout="0" softedge="0" blendtime="1" enabled="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" lockedmouse="0" hideabout="0" invertcontrol="1" contextvr="1" rubberband="0" sensitivity="8"/>
+    <transition enabled="1" zoomafterinfov="90" zoomin="0" zoomafteroutfov="20" zoomout="0" zoomspeed="2" blendtime="1" softedge="0" blendcolor="0x000000" type="crossdissolve" zoomoutpause="1" zoomfov="20"/>
+    <autorotate enabled="1" delay="8.00" noderandom="1" nodedelay="0.00" returntohorizon="0.000" useanimation="0" speed="0.200" startloaded="0" nodefilter=""/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control invertcontrol="1" rubberband="0" invertwheel="0" dblclickfullscreen="0" lockedmouse="0" speedwheel="1" hideabout="1" simulatemass="1" lockedkeyboard="0" sensitivity="8" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" contextvr="1" contextfullscreen="0"/>
   </panorama>
-  <panorama id="node11">
-    <input levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1520" width="1520" leveltilesize="510" overlap="1" levelbias="0.400">
-      <level height="1520" preload="0" width="1520" predecode="0"/>
-      <level height="760" preload="0" width="760" predecode="0"/>
-      <level height="380" preload="1" width="380" predecode="1"/>
+  <panorama hideabout="1" id="node11">
+    <input width="1520" overlap="1" levelbias="0.400" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" height="1520" leveltilesize="510" levelbiashidpi="1.000" levelingroll="0">
+      <level width="1520" predecode="0" height="1520" preload="0"/>
+      <level width="760" predecode="0" height="760" preload="0"/>
+      <level width="380" predecode="1" height="380" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="-59" fovmode="0">
-      <start projection="4" pan="0" fov="70" tilt="0"/>
-      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max fovfisheye="360" pan="360" fov="120" scaletofit="1" tilt="90" fovstereographic="270"/>
+      <start projection="4" pan="0" tilt="0" fov="70"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1"/>
     </view>
-    <userdata longitude="-46.70569616" source="" comment="" tags="" author="" streetviewlink="https://www.google.com/maps/@-23.6256939,-46.7056962,3a,75y,301h/data=!3m4!1e1!3m2!1sAF1QipPAHxnD5qqDArqF8VeyGUmaATGp7Tbipk9azRm0!2e10" customnodeid="" nodeid="node11" info="" heading="-59" datetime="" copyright="" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" latitude="-23.62569387" altitude="725.59"/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label backgroundalpha="1" wordwrap="1" borderradius="1" textalpha="1" height="20" textcolor="0x000000" width="180" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" borderalpha="1" enabled="1" background="1"/>
-      <polystyle backgroundalpha="0.25098" handcursor="1" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
-      <hotspot url="{node12}" id="Point01" skinid="ht_node" pan="93.52" distance="0.962584" tilt="0" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" target="172.5/0.0/70.0"/>
-      <hotspot url="{node4}" id="Point02" skinid="ht_node" pan="357.02" distance="0.917009" tilt="-0.49" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" target="-2.6/0.0/70.0"/>
+    <userdata nodeid="node11" heading="-59" author="" latitude="-23.62569387" customnodeid="" tags="" comment="" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" streetviewlink="https://www.google.com/maps/@-23.6256939,-46.7056962,3a,75y,301h/data=!3m4!1e1!3m2!1sAF1QipPAHxnD5qqDArqF8VeyGUmaATGp7Tbipk9azRm0!2e10" altitude="725.59" datetime="" copyright="" info="" longitude="-46.70569616" source=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label enabled="1" width="180" border="1" backgroundcolor="0xffffff" wordwrap="1" backgroundalpha="1" background="1" textalpha="1" bordercolor="0x000000" borderradius="1" height="20" textcolor="0x000000" borderalpha="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1"/>
+      <hotspot url="{node12}" pan="93.52" tilt="0" distance="0.962584" description="" id="Point01" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" skinid="ht_node" target="172.5/0.0/70.0"/>
+      <hotspot url="{node4}" pan="357.02" tilt="-0.49" distance="0.917009" description="" id="Point02" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" skinid="ht_node" target="-2.6/0.0/70.0"/>
     </hotspots>
     <media/>
-    <transition type="crossdissolve" zoomspeed="2" zoomin="0" zoomafterinfov="90" blendcolor="0x000000" zoomoutpause="1" zoomfov="20" zoomafteroutfov="20" zoomout="0" softedge="0" blendtime="1" enabled="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" lockedmouse="0" hideabout="0" invertcontrol="1" contextvr="1" rubberband="0" sensitivity="8"/>
+    <transition enabled="1" zoomafterinfov="90" zoomin="0" zoomafteroutfov="20" zoomout="0" zoomspeed="2" blendtime="1" softedge="0" blendcolor="0x000000" type="crossdissolve" zoomoutpause="1" zoomfov="20"/>
+    <autorotate enabled="1" delay="8.00" noderandom="1" nodedelay="0.00" returntohorizon="0.000" useanimation="0" speed="0.200" startloaded="0" nodefilter=""/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control invertcontrol="1" rubberband="0" invertwheel="0" dblclickfullscreen="0" lockedmouse="0" speedwheel="1" hideabout="1" simulatemass="1" lockedkeyboard="0" sensitivity="8" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" contextvr="1" contextfullscreen="0"/>
   </panorama>
-  <panorama id="node4">
-    <input levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1520" width="1520" leveltilesize="510" overlap="1" levelbias="0.400">
-      <level height="1520" preload="0" width="1520" predecode="0"/>
-      <level height="760" preload="0" width="760" predecode="0"/>
-      <level height="380" preload="1" width="380" predecode="1"/>
+  <panorama hideabout="1" id="node4">
+    <input width="1520" overlap="1" levelbias="0.400" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" height="1520" leveltilesize="510" levelbiashidpi="1.000" levelingroll="0">
+      <level width="1520" predecode="0" height="1520" preload="0"/>
+      <level width="760" predecode="0" height="760" preload="0"/>
+      <level width="380" predecode="1" height="380" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="-59" fovmode="0">
-      <start projection="4" pan="0" fov="70" tilt="0"/>
-      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max fovfisheye="360" pan="360" fov="120" scaletofit="1" tilt="90" fovstereographic="270"/>
+      <start projection="4" pan="0" tilt="0" fov="70"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1"/>
     </view>
-    <userdata longitude="-46.70570421" source="" comment="" tags="" author="" streetviewlink="https://www.google.com/maps/@-23.6256902,-46.7057042,3a,75y,301h/data=!3m4!1e1!3m2!1sAF1QipNBNhbvL3sxyKIMiD5uJPsvDKP7khLOW4Ejt49g!2e10" customnodeid="" nodeid="node4" info="" heading="-59" datetime="" copyright="" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" latitude="-23.62569018" altitude="725.59"/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label backgroundalpha="1" wordwrap="1" borderradius="1" textalpha="1" height="20" textcolor="0x000000" width="180" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" borderalpha="1" enabled="1" background="1"/>
-      <polystyle backgroundalpha="0.25098" handcursor="1" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
-      <hotspot url="{node11}" id="Point01" skinid="ht_node" pan="-181.04" distance="0.917009" tilt="-0.01" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" target="-174.6/0.0/70.0"/>
-      <hotspot url="{node13}" id="Point02" skinid="ht_node" pan="88.31" distance="1.8997" tilt="0.12" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" target="2.4/0.0/70.0"/>
+    <userdata nodeid="node4" heading="-59" author="" latitude="-23.62569018" customnodeid="" tags="" comment="" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" streetviewlink="https://www.google.com/maps/@-23.6256902,-46.7057042,3a,75y,301h/data=!3m4!1e1!3m2!1sAF1QipNBNhbvL3sxyKIMiD5uJPsvDKP7khLOW4Ejt49g!2e10" altitude="725.59" datetime="" copyright="" info="" longitude="-46.70570421" source=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label enabled="1" width="180" border="1" backgroundcolor="0xffffff" wordwrap="1" backgroundalpha="1" background="1" textalpha="1" bordercolor="0x000000" borderradius="1" height="20" textcolor="0x000000" borderalpha="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1"/>
+      <hotspot url="{node11}" pan="-181.04" tilt="-0.01" distance="0.917009" description="" id="Point01" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" skinid="ht_node" target="-174.6/0.0/70.0"/>
+      <hotspot url="{node13}" pan="88.31" tilt="0.12" distance="1.8997" description="" id="Point02" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" skinid="ht_node" target="2.4/0.0/70.0"/>
     </hotspots>
     <media/>
-    <transition type="crossdissolve" zoomspeed="2" zoomin="0" zoomafterinfov="90" blendcolor="0x000000" zoomoutpause="1" zoomfov="20" zoomafteroutfov="20" zoomout="0" softedge="0" blendtime="1" enabled="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" lockedmouse="0" hideabout="0" invertcontrol="1" contextvr="1" rubberband="0" sensitivity="8"/>
+    <transition enabled="1" zoomafterinfov="90" zoomin="0" zoomafteroutfov="20" zoomout="0" zoomspeed="2" blendtime="1" softedge="0" blendcolor="0x000000" type="crossdissolve" zoomoutpause="1" zoomfov="20"/>
+    <autorotate enabled="1" delay="8.00" noderandom="1" nodedelay="0.00" returntohorizon="0.000" useanimation="0" speed="0.200" startloaded="0" nodefilter=""/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control invertcontrol="1" rubberband="0" invertwheel="0" dblclickfullscreen="0" lockedmouse="0" speedwheel="1" hideabout="1" simulatemass="1" lockedkeyboard="0" sensitivity="8" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" contextvr="1" contextfullscreen="0"/>
   </panorama>
-  <panorama id="node13">
-    <input levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1520" width="1520" leveltilesize="510" overlap="1" levelbias="0.400">
-      <level height="1520" preload="0" width="1520" predecode="0"/>
-      <level height="760" preload="0" width="760" predecode="0"/>
-      <level height="380" preload="1" width="380" predecode="1"/>
+  <panorama hideabout="1" id="node13">
+    <input width="1520" overlap="1" levelbias="0.400" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" height="1520" leveltilesize="510" levelbiashidpi="1.000" levelingroll="0">
+      <level width="1520" predecode="0" height="1520" preload="0"/>
+      <level width="760" predecode="0" height="760" preload="0"/>
+      <level width="380" predecode="1" height="380" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="-147" fovmode="0">
-      <start projection="4" pan="0" fov="70" tilt="0"/>
-      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max fovfisheye="360" pan="360" fov="120" scaletofit="1" tilt="90" fovstereographic="270"/>
+      <start projection="4" pan="0" tilt="0" fov="70"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1"/>
     </view>
-    <userdata longitude="-46.70571561" source="" comment="" tags="" author="" streetviewlink="https://www.google.com/maps/@-23.6257037,-46.7057156,3a,75y,213h/data=!3m4!1e1!3m2!1sAF1QipPH-rKleHS5IXVNfCjrAFB1HupBi7AMxqVZQDBH!2e10" customnodeid="" nodeid="node13" info="" heading="-147" datetime="" copyright="" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" latitude="-23.62570370" altitude="725.59"/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label backgroundalpha="1" wordwrap="1" borderradius="1" textalpha="1" height="20" textcolor="0x000000" width="180" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" borderalpha="1" enabled="1" background="1"/>
-      <polystyle backgroundalpha="0.25098" handcursor="1" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
-      <hotspot url="{node4}" id="Point01" skinid="ht_node" pan="-178.15" distance="1.8997" tilt="-0.13" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" target="-90.6/0.0/70.0"/>
-      <hotspot url="{node16}" id="Point02" skinid="ht_node" pan="-359.26" distance="2.18711" tilt="0.36" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" target="-84.8/0.0/70.0"/>
+    <userdata nodeid="node13" heading="-147" author="" latitude="-23.62570370" customnodeid="" tags="" comment="" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" streetviewlink="https://www.google.com/maps/@-23.6257037,-46.7057156,3a,75y,213h/data=!3m4!1e1!3m2!1sAF1QipPH-rKleHS5IXVNfCjrAFB1HupBi7AMxqVZQDBH!2e10" altitude="725.59" datetime="" copyright="" info="" longitude="-46.70571561" source=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label enabled="1" width="180" border="1" backgroundcolor="0xffffff" wordwrap="1" backgroundalpha="1" background="1" textalpha="1" bordercolor="0x000000" borderradius="1" height="20" textcolor="0x000000" borderalpha="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1"/>
+      <hotspot url="{node4}" pan="-178.15" tilt="-0.13" distance="1.8997" description="" id="Point01" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" skinid="ht_node" target="-90.6/0.0/70.0"/>
+      <hotspot url="{node16}" pan="-359.26" tilt="0.36" distance="2.18711" description="" id="Point02" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" skinid="ht_node" target="-84.8/0.0/70.0"/>
     </hotspots>
     <media/>
-    <transition type="crossdissolve" zoomspeed="2" zoomin="0" zoomafterinfov="90" blendcolor="0x000000" zoomoutpause="1" zoomfov="20" zoomafteroutfov="20" zoomout="0" softedge="0" blendtime="1" enabled="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" lockedmouse="0" hideabout="0" invertcontrol="1" contextvr="1" rubberband="0" sensitivity="8"/>
+    <transition enabled="1" zoomafterinfov="90" zoomin="0" zoomafteroutfov="20" zoomout="0" zoomspeed="2" blendtime="1" softedge="0" blendcolor="0x000000" type="crossdissolve" zoomoutpause="1" zoomfov="20"/>
+    <autorotate enabled="1" delay="8.00" noderandom="1" nodedelay="0.00" returntohorizon="0.000" useanimation="0" speed="0.200" startloaded="0" nodefilter=""/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control invertcontrol="1" rubberband="0" invertwheel="0" dblclickfullscreen="0" lockedmouse="0" speedwheel="1" hideabout="1" simulatemass="1" lockedkeyboard="0" sensitivity="8" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" contextvr="1" contextfullscreen="0"/>
   </panorama>
-  <panorama id="node16">
-    <input levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1520" width="1520" leveltilesize="510" overlap="1" levelbias="0.400">
-      <level height="1520" preload="0" width="1520" predecode="0"/>
-      <level height="760" preload="0" width="760" predecode="0"/>
-      <level height="380" preload="1" width="380" predecode="1"/>
+  <panorama hideabout="1" id="node16">
+    <input width="1520" overlap="1" levelbias="0.400" leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" height="1520" leveltilesize="510" levelbiashidpi="1.000" levelingroll="0">
+      <level width="1520" predecode="0" height="1520" preload="0"/>
+      <level width="760" predecode="0" height="760" preload="0"/>
+      <level width="380" predecode="1" height="380" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="119" fovmode="0">
-      <start projection="4" pan="0" fov="70" tilt="0"/>
-      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max fovfisheye="360" pan="360" fov="120" scaletofit="1" tilt="90" fovstereographic="270"/>
+      <start projection="4" pan="0" tilt="0" fov="70"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1"/>
     </view>
-    <userdata longitude="-46.70572902" source="" comment="" tags="" author="" streetviewlink="https://www.google.com/maps/@-23.6257191,-46.705729,3a,75y,119h/data=!3m4!1e1!3m2!1sAF1QipORxzV6S7KexbRE5AehSqFOonfynSHEQoGd_DyV!2e10" customnodeid="" nodeid="node16" info="" heading="119" datetime="" copyright="" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" latitude="-23.62571906" altitude="725.59"/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label backgroundalpha="1" wordwrap="1" borderradius="1" textalpha="1" height="20" textcolor="0x000000" width="180" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" borderalpha="1" enabled="1" background="1"/>
-      <polystyle backgroundalpha="0.25098" handcursor="1" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
-      <hotspot url="{node13}" id="Point01" skinid="ht_node" pan="91.63" distance="2.18711" tilt="-0.12" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" target="-175.8/0.0/70.0"/>
+    <userdata nodeid="node16" heading="119" author="" latitude="-23.62571906" customnodeid="" tags="" comment="" description="" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" streetviewlink="https://www.google.com/maps/@-23.6257191,-46.705729,3a,75y,119h/data=!3m4!1e1!3m2!1sAF1QipORxzV6S7KexbRE5AehSqFOonfynSHEQoGd_DyV!2e10" altitude="725.59" datetime="" copyright="" info="" longitude="-46.70572902" source=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label enabled="1" width="180" border="1" backgroundcolor="0xffffff" wordwrap="1" backgroundalpha="1" background="1" textalpha="1" bordercolor="0x000000" borderradius="1" height="20" textcolor="0x000000" borderalpha="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1"/>
+      <hotspot url="{node13}" pan="91.63" tilt="-0.12" distance="2.18711" description="" id="Point01" title="JC Kids | Loja Brinquedos - Shopping Parque da Cidade" skinid="ht_node" target="-175.8/0.0/70.0"/>
     </hotspots>
     <media/>
-    <transition type="crossdissolve" zoomspeed="2" zoomin="0" zoomafterinfov="90" blendcolor="0x000000" zoomoutpause="1" zoomfov="20" zoomafteroutfov="20" zoomout="0" softedge="0" blendtime="1" enabled="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control invertwheel="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" lockedmouse="0" hideabout="0" invertcontrol="1" contextvr="1" rubberband="0" sensitivity="8"/>
+    <transition enabled="1" zoomafterinfov="90" zoomin="0" zoomafteroutfov="20" zoomout="0" zoomspeed="2" blendtime="1" softedge="0" blendcolor="0x000000" type="crossdissolve" zoomoutpause="1" zoomfov="20"/>
+    <autorotate enabled="1" delay="8.00" noderandom="1" nodedelay="0.00" returntohorizon="0.000" useanimation="0" speed="0.200" startloaded="0" nodefilter=""/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control invertcontrol="1" rubberband="0" invertwheel="0" dblclickfullscreen="0" lockedmouse="0" speedwheel="1" hideabout="1" simulatemass="1" lockedkeyboard="0" sensitivity="8" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" contextvr="1" contextfullscreen="0"/>
   </panorama>
   <masternode>
-    <userdata longitude="" source="" comment="" tags="" author="" customnodeid="" nodeid="master" info="" heading="0" datetime="" copyright="" description="" title="" latitude=""/>
+    <userdata nodeid="master" heading="0" author="" latitude="" customnodeid="" tags="" comment="" description="" title="" datetime="" copyright="" info="" longitude="" source=""/>
   </masternode>
 </tour>
